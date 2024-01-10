@@ -56,7 +56,15 @@
    }
   .box{
     margin-top: 300px;
-   
+  }
+  .image{
+    width: 400px;
+    display:flex;
+    justify-content: space-between;
+    margin-right:10px;
+  }
+  .login-main{
+    width: 400px;
   }
 </style>
 
@@ -66,7 +74,7 @@
     <!--正中央-->
 
     <div style="  height:400px;">
-        <div id="mwww" loop="true" style="width:185%; height:155%; padding:4px">
+        <div id="mwww" loop="true" style="width:250%; height:155%; padding:4px">
             <div style="width:180%; height:150%; position:relative; left:200px;" class="cent">沒有資料</div>
         </div>
 
@@ -74,7 +82,7 @@
         <div class="card-name">
   <div class="card-container">
     <div class="card" style="width:400px;">
-      <img src="https://picsum.photos/seed/picsum/550/260" class="card-img-top" alt="...">
+      <img src="https://picsum.photos/seed/picsum/550/210" class="card-img-top" alt="...">
       <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -160,6 +168,7 @@
 </div>
 
 
+<div class="image margin-top:300px;"> 
 <div class="login-main">
 <?php
 if(isset($_SESSION['login'])){
@@ -172,18 +181,57 @@ if(isset($_GET['error'])){
 }
 
 ?>
-<div class="di" style="height:500px; border:#999 1px solid; width:53.2%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
+<div class="di" style="height:500px; border:#999 1px solid; width:200%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
 <?php include "marquee.php";?>
 	<div style="height:32px; display:block;"></div>
 	<!--正中央-->
 	<form method="post" action="./api/check.php">
-		<p class="t botli">管理員登入區</p>
+		<p class="t botli text-center">登入</p>
 		<p class="cent">帳號 : <input name="acc" autofocus="" type="text"></p>
 		<p class="cent">密碼 : <input name="pw" type="password"></p>
 		<p class="cent"><input value="送出" type="submit"><input type="reset" value="清除"></p>
 	</form>
 </div>
 </div>
+
+<div style="width:89%; height:480px; text-center;" class="dbor">
+                    	<span class="t botli">校園映象區</span>
+						<div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
+					<?php
+					$imgs=$Image->all(['sh'=>1]);
+
+					foreach($imgs as $idx => $img){
+					?>
+						<div id="ssaa<?=$idx;?>" class='im cent' >
+							<img src="./img/<?=$img['img'];?>" style="width:150px;height:103px;border:3px solid orange;margin:3px">
+						</div>
+					<?php
+					}
+					?>
+					<div class="cent" onclick="pp(2)"><img src="./icon/dn.jpg" alt=""></div>
+						<script>
+                        	var nowpage=1,num=<?=$Image->count(['sh'=>1]);?>;
+
+							function pp(x)
+							{
+								var s,t;
+								if(x==1 && nowpage-1>=0)
+								{nowpage--;}
+								if(x==2&&(nowpage+1)<=num*1-3)
+								{nowpage++;}
+								
+								$(".im").hide()
+								for(s=0;s<=2;s++)
+								{
+									t=s*1+nowpage*1;
+									$("#ssaa"+t).show()
+
+	 							}
+							}
+
+
+              
+
 
 <div class="box">
     <div style="clear:both;"></div>

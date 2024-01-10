@@ -26,10 +26,10 @@
     	<a title="<?=$title['text'];?>" href="index.php">
 			<div class="ti" style="background:url(&#39;./img/<?=$title['img'];?>&#39;); background-size:cover;"></div><!--標題--></a>
         	<div id="ms">
-             	<div id="lf" style="float:left;">
-            		<div id="menuput" class="dbor">
+             	<!-- <div id="lf" style="float:left;"> -->
+            		<!-- <div id="menuput" class="dbor"> -->
                     <!--主選單放此-->
-						<span class="t botli"></span>
+						<!-- <span class="t botli"></span> -->
 						<?php
 						$mainmu=$Menu->all(['sh'=>1,'menu_id'=>0]);
 						foreach($mainmu as $main){
@@ -52,16 +52,16 @@
 							// }
 							?>
 							
-						</div> -->
+						</div>
 							
 						</a>
 						<?php
 						}
 						?>
 					</div>
-                    <div class="dbor" style="margin-left:500px; width:100%; height:20%; line-height:100px; margin-top:400px; margin-lift:50px;">
+                     <div class="dbor" style="margin-left:500px; width:100%; height:20%; line-height:100px; margin-top:400px; margin-lift:50px;">
                     	
-                    </div>
+                    </div> -->
         		</div>
 
 				<?php 
@@ -81,7 +81,7 @@
 					<?php
 					if(isset($_SESSION['login'])){
 					?>
-                	<button style="width:100%; margin-left:auto; margin-right:auto; margin-top:2px; height:50px;" onclick="lo(&#39;back.php&#39;)">返回管理</button>
+                	<!-- <button style="width:100%; margin-left:auto; margin-right:auto; margin-top:2px; height:50px;" onclick="lo(&#39;back.php&#39;)">返回管理</button> -->
                 	<?php
 					}else{
 					?>
