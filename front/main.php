@@ -55,7 +55,8 @@
     height:300px;
    }
   .box{
-    margin-top: 300px;
+    margin-top: 400px;
+    
   }
   .image{
     width: 400px;
@@ -74,8 +75,8 @@
     <!--正中央-->
 
     <div style="  height:400px;">
-        <div id="mwww" loop="true" style="width:250%; height:155%; padding:4px">
-            <div style="width:180%; height:150%; position:relative; left:200px;" class="cent">沒有資料</div>
+        <div id="mwww" loop="true" style="width:250%; height:155%; padding:4px "></div>
+            <div style="width:180%; height:150%; position:relative; left:300px;" class="cent">沒有資料</div>
         </div>
 
 
@@ -194,7 +195,7 @@ if(isset($_GET['error'])){
 </div>
 </div>
 
-<div style="width:89%; height:480px; text-center;" class="dbor">
+<div style="width:100%; height:300px; align-items:center; margin-top:600px; margin-right:40px;" class="dbor">
                     	<span class="t botli">校園映象區</span>
 						<div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
 					<?php
@@ -228,14 +229,14 @@ if(isset($_GET['error'])){
 
 	 							}
 							}
-
+              </script>
 
               
 
 
 <div class="box">
     <div style="clear:both;"></div>
-    <div style="width:1400px; left:0px; position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
+    <div style="width:1300px; right:470px; position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
         <span class="t" style="line-height:123px;"><?=$Bottom->find(1)['bottom'];?></span>
         <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px;">
             <span class="t">進站總人數 :</span>

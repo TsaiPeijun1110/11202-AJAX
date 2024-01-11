@@ -29,7 +29,7 @@ if(!isset($_SESSION['login'])){
 		$title = $Title->find(['sh' => 1]);
 		?>
 		<a title="<?= $title['text']; ?>" href="index.php">
-			<div class="ti" style="background:url(&#39;./img/<?= $title['img']; ?>&#39;); background-size:cover;"></div>
+			<div class="ti" style="background:url(&#39;./img/<?= $title['img']; ?>&#39;); background-size:100%;"></div>
 			<!--標題-->
 		</a>
 		<div id="ms">
