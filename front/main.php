@@ -93,14 +93,12 @@
   }
 </style>
 
-<div class="di" style="height:300px;  width:100%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
-
   <div style="height:32px; display:block;"></div>
   <!--正中央-->
 
-  <div style="  height:400px;">
+  <div style=" height:400px;">
     <div id="mwww" loop="true" style="width:100%; height:155%; padding:4px "></div>
-    <div style="width:180%; height:150%; position:relative; left:300px;" class="cent">沒有資料</div>
+    <div style="width:100%; height:150%; position:relative; " class="cent">沒有資料</div>
   </div>
 
 
@@ -221,7 +219,7 @@
       </div>
     </div>
 
-    <div style="width:100%; height:300px; align-items:center; margin-top:600px; margin-right:40px;" class="dbor">
+    <div style="width:100%;  align-items:center; margin-top:400px; margin-right:40px;" class="dbor">
       <span class="t botli">校園映象區</span>
       <div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
       <?php
@@ -257,23 +255,16 @@
           }
         }
       </script>
+    </div>
+  </div>
 
-
-
-
-      <div class="box">
-        <div style="clear:both;"></div>
-        <div style="width:1300px;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
+  <div style="clear:both;"></div>
+        <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
           <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
           <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px;">
             <span class="t">進站總人數 :</span>
           </div>
         </div>
-      </div>
-
-
-    </div>
-  </div>
   <script>
     var lin = new Array();
     <?php
@@ -299,4 +290,3 @@
     }
   </script>
 
-</div>
