@@ -1,5 +1,6 @@
-﻿<?php include_once "./api/db.php"; 
-if(!isset($_SESSION['login'])){
+﻿<?php include_once "./api/db.php";
+
+if (!isset($_SESSION['login'])) {
 	to("index.php");
 }
 ?>
@@ -9,14 +10,56 @@ if(!isset($_SESSION['login'])){
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>卓越科技大學校園資訊系統</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 	<link href="./css/css.css" rel="stylesheet" type="text/css">
 	<script src="./js/jquery-1.9.1.min.js"></script>
 	<script src="./js/js.js"></script>
 </head>
+<style>
+	/* .nav{
+		width: 100%;
+		height:200px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	} */
+</style>
 
 <body>
+
+
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="?do=admin">後台管理</a>
+			
+			<div class="collapse navbar-collapse justify-content-centers" id="navbarNavAltMarkup">
+				<div class="navbar-nav" style="white-space: nowrap; flex-wrap:wrap">
+					<!-- <a class="nav-link active" aria-current="page" href="?do=title">網站標題管理</a> -->
+					<a class="nav-link" href="?do=title">網站標題管理</a>
+					<a class="nav-link" href="?do=ad">動態文字廣告管理</a>
+					<a class="nav-link" href="?do=mvim">動畫圖片管理</a>
+					<a class="nav-link" href="?do=image">校園映象資料管理</a>
+					<a class="nav-link" href="?do=total">進站總人數管理</a>
+					<a class="nav-link" href="?do=bottom">頁尾版權資料管理</a>
+					<a class="nav-link" href="?do=news">最新消息資料管理</a>
+					<a class="nav-link" href="?do=admin">管理者帳號管理</a>
+					<a class="nav-link" href="?do=menu">選單管理</a>
+				</div>
+			</div>
+			<div>
+			<button class="btn btn-outline-success" style="white-space: nowrap;" type="button" onclick="location.href='./api/logout.php'">登出</button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			</div>
+		</div>
+	</nav>
+
+
+
 	<div id="cover" style="display:none; ">
 		<div id="coverr">
 			<a style="position:absolute; right:3px; top:4px; cursor:pointer; z-index:9999;" onclick="cl(&#39;#cover&#39;)">X</a>
@@ -24,106 +67,60 @@ if(!isset($_SESSION['login'])){
 		</div>
 	</div>
 
-	<div id="main">
+	<div id="main" style="height: calc(100vh - 61px - 113px);">
 		<?php
 		$title = $Title->find(['sh' => 1]);
 		?>
 		<a title="<?= $title['text']; ?>" href="index.php">
-			<div class="ti" style="background:url(&#39;./img/<?= $title['img']; ?>&#39;); background-size:100%;"></div>
+			<!-- <div class="ti" style="background:url(&#39;./img/ bn<?= $title['img']; ?>&#39;); background-size:100%;"></div> -->
 			<!--標題-->
 		</a>
 		<div id="ms">
-			<div id="lf" style="float:left;">
-				<div id="menuput" class="dbor">
-					<!--主選單放此-->
-					<span class="t botli">後台管理選單</span>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=title">
-						<div class="mainmu">
-							網站標題管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=ad">
-						<div class="mainmu">
-							動態文字廣告管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=mvim">
-						<div class="mainmu">
-							動畫圖片管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=image">
-						<div class="mainmu">
-							校園映象資料管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=total">
-						<div class="mainmu">
-							進站總人數管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=bottom">
-						<div class="mainmu">
-							頁尾版權資料管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=news">
-						<div class="mainmu">
-							最新消息資料管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=admin">
-						<div class="mainmu">
-							管理者帳號管理 </div>
-					</a>
-					<a style="color:#000; font-size:13px; text-decoration:none;" href="?do=menu">
-						<div class="mainmu">
-							選單管理 </div>
-					</a>
+			<div id="lf" style="height:auto; width:100%">
 
+				<div class="" >
+					<!--正中央-->
+					
+						
+					<?php
 
-			
-				<div class="dbor" style="margin:3px; width:95%; height:20%; line-height:100px;">
-					<span class="t">進站總人數 :></span>
+					$do = $_GET['do'] ?? 'title';
+					$file = "./back/{$do}.php";
+					if (file_exists($file)) {
+						include $file;
+					} else {
+						include "./back/title.php";
+					}
+
+					?>
 				</div>
-			
-			<div class="di" style="height:540px; border:#999 1px solid; width:76.5%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
-				<!--正中央-->
-				<table width="100%">
-					<tbody>
-						<tr>
-							<td style="width:70%;font-weight:800; border:#333 1px solid; border-radius:3px;" class="cent"><a href="?do=admin" style="color:#000; text-decoration:none;">後台管理區</a></td>
-							<td><button onclick="location.href='./api/logout.php'" style="width:99%; margin-right:2px; height:50px;">管理登出</button></td>
-						</tr>
-					</tbody>
-				</table>
-				<?php
-
-				$do = $_GET['do'] ?? 'title';
-				$file = "./back/{$do}.php";
-				if (file_exists($file)) {
-					include $file;
-				} else {
-					include "./back/title.php";
-				}
-
-				?>
+				<div id="alt" style="position: absolute; width: 350px; min-height: 100px; word-break:break-all; text-align:justify;  background-color: rgb(255, 255, 204); top: 50px; left: 400px; z-index: 99; display: none; padding: 5px; border: 3px double rgb(255, 153, 0); background-position: initial initial; background-repeat: initial initial;"></div>
+				<script>
+					$(".sswww").hover(
+						function() {
+							$("#alt").html("" + $(this).children(".all").html() + "").css({
+								"top": $(this).offset().top - 50
+							})
+							$("#alt").show()
+						}
+					)
+					$(".sswww").mouseout(
+						function() {
+							$("#alt").hide()
+						}
+					)
+				</script>
 			</div>
-			<div id="alt" style="position: absolute; width: 350px; min-height: 100px; word-break:break-all; text-align:justify;  background-color: rgb(255, 255, 204); top: 50px; left: 400px; z-index: 99; display: none; padding: 5px; border: 3px double rgb(255, 153, 0); background-position: initial initial; background-repeat: initial initial;"></div>
-			<script>
-				$(".sswww").hover(
-					function() {
-						$("#alt").html("" + $(this).children(".all").html() + "").css({
-							"top": $(this).offset().top - 50
-						})
-						$("#alt").show()
-					}
-				)
-				$(".sswww").mouseout(
-					function() {
-						$("#alt").hide()
-					}
-				)
-			</script>
-		</div>
-		<div style="clear:both;"></div>
-		<div style="width:1024px; left:0px; position:relative; background:#FC3; margin-top:4px; height:123px; display:block;">
-			<span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
+			<div style="clear:both;"></div>
 		</div>
 	</div>
+	</div>
+	<footer class="container-fluid flex-shrink-0 py-4 bg-dark text-white-50">
+		<div class="container text-center">
+			<small><?= $Bottom->find(1)['bottom']; ?></small>
+			<span class="t">進站總人數:<?= $Total->find(1)['total']; ?></span>
+		</div>
+	</footer>
 
 </body>
 

@@ -19,12 +19,12 @@
 
 
 </div>
-	<div id="main">
+	<div id="main" style="width: 100%;">
 		<?php 
 			$title=$Title->find(['sh'=>1]);
 		?>
     	<a title="<?=$title['text'];?>" href="index.php">
-			<div class="ti" style="background:url(&#39;./img/<?=$title['img'];?>&#39;); background-size:cover;"></div><!--標題--></a>
+			<div class="ti" style="background:url(&#39;./img/<?=$title['img'];?>&#39;); width:100%;"></div><!--標題--></a>
         	<div id="ms">
              	<!-- <div id="lf" style="float:left;"> -->
             		<!-- <div id="menuput" class="dbor"> -->

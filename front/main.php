@@ -4,7 +4,6 @@
 </head>
 <style>
   body {
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -94,13 +93,13 @@
   }
 </style>
 
-<div class="di" style="height:300px;  width:53.2%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
+<div class="di" style="height:300px;  width:100%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px;">
 
   <div style="height:32px; display:block;"></div>
   <!--正中央-->
 
   <div style="  height:400px;">
-    <div id="mwww" loop="true" style="width:250%; height:155%; padding:4px "></div>
+    <div id="mwww" loop="true" style="width:100%; height:155%; padding:4px "></div>
     <div style="width:180%; height:150%; position:relative; left:300px;" class="cent">沒有資料</div>
   </div>
 
@@ -264,7 +263,7 @@
 
       <div class="box">
         <div style="clear:both;"></div>
-        <div style="width:1300px; right:470px; position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
+        <div style="width:1300px;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between;">
           <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
           <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px;">
             <span class="t">進站總人數 :</span>
