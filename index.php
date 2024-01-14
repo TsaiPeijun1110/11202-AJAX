@@ -77,9 +77,9 @@
 					}
 
 					?>
-
+					<!-- class="di di ad" 是校園映象區遮住的那塊,要挑整高度及放到校園映象區的上面 -->
                     <div class="di di ad" style="height:540px; width:50%; padding:0px; margin-left:22px; float:left; ">
-                	<!--右邊-->   
+                	<!-- 右邊-->   
 					<?php
 					if(isset($_SESSION['login'])){
 					?>
