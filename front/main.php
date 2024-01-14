@@ -101,9 +101,9 @@
 </div>
 
 
-<div class="card-name">
+<div class="card-name" style="display: flex; justify-content:center;margin-left: auto; margin-right:auto;">
   <div class="card-container">
-    <div class="card" style="width:400px;">
+    <div class="card" style="width:401px;">
       <img src="https://picsum.photos/seed/picsum/550/260" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -123,7 +123,7 @@
       </div>
     </div>
 
-    <div class="card" style="width: 500px;">
+    <div class="card" style="width: 446px;">
       <img src="https://picsum.photos/seed/picsum/450/190" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -135,9 +135,9 @@
 </div>
 
 
-<div class="card-name2">
+<div class="card-name2" style="display: flex; justify-content:center;">
   <div class="card-container">
-    <div class="card" style="width:400px;">
+    <div class="card" style="width:401px;">
       <img src="https://picsum.photos/seed/picsum/550/260" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -155,7 +155,7 @@
       </div>
     </div>
 
-    <div class="card" style="width: 500px;">
+    <div class="card" style="width: 446px;">
       <img src="https://picsum.photos/seed/picsum/450/190" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
@@ -207,7 +207,7 @@
 
         ?>
         <div>
-          <div class="di" style="height:500px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 230px;">
+          <div class="di" style="height:500px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px;">
             <?php include "marquee.php"; ?>
             <div style="height:32px; display:block;"></div>
             <!--正中央-->
@@ -224,7 +224,7 @@
   </div>
 
   <div>
-    <div style="width:300px; height:480px; margin:0px;" class="dbor">
+    <div style="width:400px; height:480px; margin:0px;border: #EE7728 double 3px;" class="dbor">
       <span class="t ">校園映象區</span>
       <div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
       <?php
@@ -271,12 +271,17 @@
 
 
   <div style="clear:both;"></div>
-  <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:500px;">
+  <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:5px;">
     <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
     <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px; ">
       <span class="t">進站總人數 :</span>
     </div>
   </div>
+
+
+
+
+
   <script>
     var lin = new Array();
     <?php
