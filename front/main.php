@@ -64,12 +64,12 @@
     height: 900px;
   } */
 
-  .login-main {
+  /* .login-main {
     margin-right: 200px;
     margin-top: 405px;
     width: 1000px;
     height: 300px;
-  }
+  } */
 
   .box {
     margin-top: 200px;
@@ -194,7 +194,7 @@
 
   <div>
     <div class="image margin-top:405px;">
-      <div class="login-main">
+      <div class="login-main" style="height: 0px;">
         <?php
         if (isset($_SESSION['login'])) {
           to("back.php");
@@ -207,7 +207,7 @@
 
         ?>
         <div>
-          <div class="di" style="height:500px; border:#999 1px solid; width:200%; margin-top:400px; float:left; position:relative; left:20px;">
+          <div class="di" style="height:500px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 230px;">
             <?php include "marquee.php"; ?>
             <div style="height:32px; display:block;"></div>
             <!--正中央-->
@@ -224,8 +224,8 @@
   </div>
 
   <div>
-    <div style="width:89%; height:480px;" class="dbor">
-      <span class="t botli">校園映象區</span>
+    <div style="width:300px; height:480px; margin:0px;" class="dbor">
+      <span class="t ">校園映象區</span>
       <div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
       <?php
       $imgs = $Image->all(['sh' => 1]);
@@ -273,7 +273,7 @@
   <div style="clear:both;"></div>
   <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:500px;">
     <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
-    <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px;">
+    <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px; ">
       <span class="t">進站總人數 :</span>
     </div>
   </div>
