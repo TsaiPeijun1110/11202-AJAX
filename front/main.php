@@ -1,3 +1,4 @@
+<?php include "marquee.php";?>
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -7,9 +8,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-   
   }
-
 
   /* .card {
     flex: 0 0 auto;
@@ -171,7 +170,7 @@
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel-fade">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://picsum.photos/seed/picsum/700/410" class="d-block w-100" alt="...">
+         <img src="https://picsum.photos/seed/picsum/700/410" class="d-block w-100" alt="...">     <!--700寬/410高 -->
       </div>
       <div class="carousel-item">
         <img src="https://picsum.photos/seed/picsum/700/410" class="d-block w-100" alt="...">
@@ -207,8 +206,7 @@
 
         ?>
         <div>
-          <div class="di" style="height:500px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px;">
-            <?php include "marquee.php"; ?>
+          <div class="di" style="height:488px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px; margin-top: 2px;">
             <div style="height:32px; display:block;"></div>
             <!--正中央-->
             <form method="post" action="./api/check.php">
@@ -224,7 +222,7 @@
   </div>
 
   <div>
-    <div style="width:400px; height:480px; margin:0px;border: #EE7728 double 3px;" class="dbor">
+    <div style="width:400px; height:487px; margin:0px;border: #EE7728 double 3px;" class="dbor">
       <span class="t ">校園映象區</span>
       <div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
       <?php
@@ -271,7 +269,7 @@
 
 
   <div style="clear:both;"></div>
-  <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:5px;">
+  <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:9px;">
     <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
     <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px; ">
       <span class="t">進站總人數 :</span>
@@ -305,4 +303,7 @@
       if (now >= lin.length)
         now = 0;
     }
+    
   </script>
+
+  
