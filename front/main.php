@@ -103,22 +103,25 @@
 
 <div class="card-name" style="display: flex; justify-content:center;margin-left: auto; margin-right:auto;">
   <div class="card-container">
-
+  
     <div class="card" style="width:400px;">
       <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013505/34055811.jpg&w=880&h=540" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">無界之涯——從海出發探索十六世紀東西文化交流</h5>
-        <p class="card-text"></p>
+        <p class="card-text">
+        十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
+        話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳......
+        </p>
         <!-- Button trigger modal -->
         <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
           更多內容...
         </button>
         <!-- Modal -->
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel1" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+                <h1 class="modal-title fs-5" id="staticBackdropLabel1">無界之涯</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
@@ -126,7 +129,7 @@
                 話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -141,25 +144,28 @@
   <div class="card" style="width:400px;">
     <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012959/34054431.jpg&w=880&h=530" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">風格故事—琺瑯彩瓷特展</h5>
+      <p class="card-text">
+      當我們看文物時，首先映入眼簾的是它的造型和裝飾紋樣；再進一步思考時，就又想要瞭解相關的時代背景和製作技術。那麼，綜整這些因素所形塑出來的整體特色就是風格......
+      </p>
       <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         更多內容...
       </button>
       <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel2" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel2">琺瑯彩瓷特展</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+             從這個角度看清朝康熙、雍正和乾隆三個時期(1662-1795)的琺瑯彩瓷，除了推薦這是十八世紀最具代表性的瓷器之外，也想透過展覽說明因應彩料的研發與使用，以及主政者三位皇帝對官窯的不同訴求，而形成的三個階段的風格樣式。
+             依照時間序列，展覽分成三個敘事脈絡。第一單元「皇帝實驗室的新創品」，藉由試作和成品的對比，展示康熙皇帝(1662-1722)邀集西洋傳教士和民間高手，共同推動畫琺瑯工藝及至燒出本土樣式的經過。第二單元「皇家專屬式樣」
+            ，呈現雍正皇帝(1723-1735)以皇家專屬式樣為前提，將琺瑯彩瓷包裝成一種宮廷限量版的瓷器。
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -179,19 +185,18 @@
         更多內容...
       </button>
       <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel3">...</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+              ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -215,15 +220,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">...</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+              ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -251,15 +255,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">...</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+              ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -281,15 +284,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">...</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+             ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -310,15 +312,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
-              <button type="button"  class="btn btn-outline-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">...</h1>
+              <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+              ...
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
@@ -340,15 +341,14 @@
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">無界之涯</h1>
-              <button type="button"  class="btn btn-outline-secondary" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">...</h1>
+              <button type="button"  class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-              話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
+              ....
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
             </div>
           </div>
         </div>
