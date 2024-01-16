@@ -19,7 +19,7 @@
 
 
 </div>
-	<div id="main" style="width: 100%;">
+	<div id="main" style="width: 100%;border:0ox;">
 		<?php 
 			$title=$Title->find(['sh'=>1]);
 		?>
