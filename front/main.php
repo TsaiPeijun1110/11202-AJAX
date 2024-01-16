@@ -102,8 +102,8 @@
 
 <div class="card-name" style="display: flex; justify-content:center;margin-left: auto; margin-right:auto;">
   <div class="card-container">
-    <div class="card" style="width:401px;">
-      <img src="https://picsum.photos/seed/picsum/550/260" class="card-img-top" alt="...">
+    <div class="card" style="width:400px;">
+      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013505/34055811.jpg&w=880&h=540" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -114,8 +114,9 @@
     </div>
     </div>
 
-    <div class="card" style="width:450px;">
-      <img src="https://picsum.photos/seed/picsum/500/210" class="card-img-top" alt="...">
+
+    <div class="card" style="width:400px;">
+      <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012959/34054431.jpg&w=880&h=530" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -123,8 +124,8 @@
       </div>
     </div>
 
-    <div class="card" style="width:450px;">
-      <img src="https://picsum.photos/seed/picsum/500/210" class="card-img-top" alt="...">
+    <div class="card" style="width:400px;">
+      <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012832/34054063.jpg&w=880&h=550" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -132,8 +133,8 @@
       </div>
     </div>
 
-    <div class="card" style="width: 446px;">
-      <img src="https://picsum.photos/seed/picsum/450/190" class="card-img-top" alt="...">
+    <div class="card" style="width: 400px;">
+      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013504/34055809.jpg&w=880&h=550" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -146,8 +147,8 @@
 
 <div class="card-name2" style="display: flex; justify-content:center;">
   <div class="card-container">
-    <div class="card" style="width:401px;">
-      <img src="https://picsum.photos/seed/picsum/550/260" class="card-img-top" alt="...">
+    <div class="card" style="width:400px;">
+      <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013392/34055516.jpg&w=880&h=550" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -155,8 +156,8 @@
       </div>
     </div>
 
-    <div class="card" style="width:450px;">
-      <img src="https://picsum.photos/seed/picsum/500/210" class="card-img-top" alt="...">
+    <div class="card" style="width:400px;">
+      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013438/34055622.jpg&w=880&h=550" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -164,8 +165,8 @@
       </div>
     </div>
 
-    <div class="card" style="width:450px;">
-      <img src="https://picsum.photos/seed/picsum/500/210" class="card-img-top" alt="...">
+    <div class="card" style="width:400px;">
+      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013558/34056002.jpg&w=720&h=500" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -173,8 +174,8 @@
       </div>
     </div>
 
-    <div class="card" style="width: 446px;">
-      <img src="https://picsum.photos/seed/picsum/450/190" class="card-img-top" alt="...">
+    <div class="card" style="width: 400px;">
+      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013529/34055852.jpg&w=720&h=500" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -285,7 +286,7 @@
     </div>
   </div>
 
-  
+
 <div>
   <div style="width: 400px;
              padding: 2px;
@@ -341,13 +342,13 @@
 
 
 
-  <div style="clear:both;"></div>
+   <div style="clear:both;"></div>
   <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:9px;">
     <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
     <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px; ">
       <span class="t">進站總人數 :</span>
     </div>
-  </div>
+  </div> 
 
 
 
