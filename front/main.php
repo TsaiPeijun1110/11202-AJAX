@@ -226,7 +226,7 @@
 
         ?>
         <div>
-          <div class="di" style="height:488px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px; margin-top: 2px;">
+          <div class="di" style="height:488px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px; margin-top: -119px;">
             <div style="height:32px; display:block;"></div>
             <!--正中央-->
             <form method="post" action="./api/check.php">
@@ -341,14 +341,14 @@
 
 
 
+    <footer class="container-fluid flex-shrink-0 py-4 bg-dark text-white-50">
+		<div class="container text-center">
+			<small><?= $Bottom->find(1)['bottom']; ?></small>
+			<span class="t">進站總人數:<?= $Total->find(1)['total']; ?></span>
+		</div>
+	</footer>
 
-   <div style="clear:both;"></div>
-  <div style="width:100%;  position:relative; background:#FC3;  height:150px; display:flex; align-items:center; justify-content: space-between; margin-top:9px;">
-    <span class="t" style="line-height:123px;"><?= $Bottom->find(1)['bottom']; ?></span>
-    <div class="dbor" style="margin-left:120px; width:40%; height:40%; line-height:60px; ">
-      <span class="t">進站總人數 :</span>
-    </div>
-  </div> 
+
 
 
 
