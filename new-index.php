@@ -1,42 +1,43 @@
 <?php
 include_once "./api/db.php";
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
-        <div class="carousel-inner">
+<div style="width: 400px;; padding:2px; height:190px; margin-top:10px; padding:5px 10px 5px 10px; border:#0C3 dashed 3px; position:relative;">
+        <span class="t botli">最新消息區
             <?php
-            $imgs = $Image->all(['sh' => 1]);
-            foreach ($imgs as $idx => $img) {
-                if($idx==0){
-                    $active="active";
-                }else{
-                    $active="";
+                if($News->count(['sh'=>1])>5){
+                    echo "<a href='?do=news' style='float:right'>More...</a>";
                 }
-            ?>
-                <div class="carousel-item <?=$active;?>">
-                    <img src="./img/<?= $img['img']; ?>" class="d-block w-100" alt="...">
-                </div>
-            <?php
+            ?>      
+        </span>
+        <ul class="ssaa" style="list-style-type:decimal;">
+        <?php
+            $news=$News->all(['sh'=>1],' limit 5');
+            foreach($news as $n){
+                echo "<li>";
+                echo mb_substr($n['text'],0,20);
+                echo "<div class='all' style='display:none'>";
+                echo $n['text'];
+                echo "</div>";
+                echo "...</li>";
             }
-            ?>
+        ?>
+        </ul>
+        <div id="altt" style="position: absolute; width: 350px; min-height: 100px; background-color: 
+        rgb(255, 255, 204); top: 50px; left: 130px; z-index: 99; display: none; padding: 5px; 
+        border: 3px double rgb(255, 153, 0); background-position: initial initial; background-repeat: initial initial;">    
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
+        <script>
+            $(".ssaa li").hover(
+                function() {
+
+                    $("#altt").html("<pre>" +$(this).children(".all").html()  + "</pre>")
+                    $("#altt").show()
+                }
+            )
+            $(".ssaa li").mouseout(
+                function() {
+                    $("#altt").hide()
+                }
+            )
+        </script>
     </div>
-</body>
-</html>
