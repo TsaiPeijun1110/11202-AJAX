@@ -1,81 +1,20 @@
-<?php include "marquee.php"; ?>
-
+<?php include_once './api/db.php';?>
 <head>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <style>
   body {
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100vh
   }
-
-  /* .card {
-    flex: 0 0 auto;
-    width: 100%;
-    
-    box-sizing: border-box;
-    
-  }
-
-  .card-img-top {
-    max-width: 100%;
-    
-    height: auto;
-    
-  }
-
-  .card-container {
-    display: flex;
-    justify-content: space-between;
-  } */
-
   .card-container {
     display: flex;
   }
-
-  /* .myCarousel-name {
-    display: flex;
-    justify-content: space-between;
-    height: 400px;
-  } */
-
-  /* .carousel-inner img {
-    margin-top: 10px;
-    width: 100%;
-    height: 300%;
-    object-fit: cover;
-    border-radius: 20px;
-  }
-
-  .carousel-control-prev {
-    margin-top: 10px;
-    height: 600px;
-  }
-
-  .carousel-control-next {
-    margin-top: 10px;
-    height: 600px;
-  }
-
-  .carousel-inner {
-    width: 100%;
-    height: 900px;
-  } */
-
-  /* .login-main {
-    margin-right: 200px;
-    margin-top: 405px;
-    width: 1000px;
-    height: 300px;
-  } */
-
   .box {
     margin-top: 200px;
-
   }
-
   .image {
     width: 400px;
     display: flex;
@@ -86,12 +25,10 @@
   .login-main {
     width: 400px;
   }
-
   .card-name {
     margin-top: 218px;
   }
 </style>
-
 <div style="height:32px; display:block;"></div>
 <!--正中央-->
 
@@ -411,7 +348,7 @@
 
       ?>
       <div>
-        <div class="di" style="height:488px; border:#999 1px solid; width:200%;  float:left; position:relative; left:20px; margin-left: 383px; ">
+        <div class="di" style="height:488px; border:#999 1px solid; width:180%;  float:left; position:relative; left:20px; margin-left: 383px; ">
           <div style="height:32px; display:block;"></div>
           <!--正中央-->
           <form method="post" action="./api/check.php">
@@ -480,7 +417,7 @@
               padding: 5px 10px 5px 10px;
               border: #0C3 dashed 3px;
               position: relative;
-              margin-left: 1211px;
+              margin-left: 1122px;
               margin-top: -486px; ">
 
     <span class="t botli">最新消息區
