@@ -24,7 +24,7 @@
 			$title=$Title->find(['sh'=>1]);
 		?>
     	<a title="<?=$title['text'];?>" href="index.php">
-			<!-- <div class="ti" style="background-image:url(&#39;./img/<?=$title['img'];?>&#39;); width:100%; "></div> -->
+			 <!-- <div class="ti" style="background-image:url(&#39;./img/<?=$title['img'];?>&#39;); width:100%; "></div>  -->
 			<img src="./img/<?=$title['img'];?>" style="width:100%">
 		</a>
         	<div id="ms">
@@ -32,10 +32,10 @@
             		<!-- <div id="menuput" class="dbor"> -->
                     <!--主選單放此-->
 						<!-- <span class="t botli"></span> -->
-						<?php
+						<!-- <?php
 						$mainmu=$Menu->all(['sh'=>1,'menu_id'=>0]);
 						foreach($mainmu as $main){
-						?>
+						?> -->
 						<!-- <div class='mainmu'>
 							<a  href="<?=$main['href'];?>" style="color:#000; font-size:13px; text-decoration:none;"><?=$main['text'];?></a>
 							<?php
