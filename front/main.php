@@ -48,10 +48,10 @@
         <h5 class="card-title">無界之涯——從海出發探索十六世紀東西文化交流</h5>
         <p class="card-text">
         十六世紀葡萄牙人卡蒙斯(Luís Vaz de Camões,-1580)筆下的兩句話，訴說著陸地的盡頭，卻正是大海的起點。
-        話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳......
+        話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <button type="button" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
           更多內容...
         </button>
         <!-- Modal -->
@@ -67,7 +67,7 @@
                 話中語境見證當時歐洲人嚮往海外探險的風氣，更為世界不同端點人們的相遇，立下一個絕佳的註腳
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
               </div>
             </div>
           </div>
@@ -84,7 +84,7 @@
     <div class="card-body">
       <h5 class="card-title">風格故事—琺瑯彩瓷特展</h5>
       <p class="card-text">
-      當我們看文物時，首先映入眼簾的是它的造型和裝飾紋樣；再進一步思考時，就又想要瞭解相關的時代背景和製作技術。那麼，綜整這些因素所形塑出來的整體特色就是風格......
+      當我們看文物時，首先映入眼簾的是它的造型和裝飾紋樣；再進一步思考時，就又想要瞭解相關的時代背景和製作技術。那麼，綜整這些因素所形塑出來的整體特色就是風格
       </p>
       <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
         更多內容...
@@ -103,7 +103,7 @@
             ，呈現雍正皇帝(1723-1735)以皇家專屬式樣為前提，將琺瑯彩瓷包裝成一種宮廷限量版的瓷器。
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -118,7 +118,7 @@
     <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012832/34054063.jpg&w=880&h=550" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">華麗魔法屋─故宮的洛可可珍藏</h5>
-      <p class="card-text">歡迎來到華麗魔法屋! 你即將穿越時空來到二百多年前的歐洲。在這裡，「裝飾」是一種魔法，為看似平凡的生活場景與物品注入靈魂.....</p>
+      <p class="card-text">歡迎來到華麗魔法屋! 你即將穿越時空來到二百多年前的歐洲。在這裡，「裝飾」是一種魔法，為看似平凡的生活場景與物品注入靈魂</p>
       <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
         更多內容...
       </button>
@@ -137,7 +137,7 @@
             從房間的牆壁、客廳的桌子、壁爐上的時鐘、餐桌上的杯盤，到口袋裡的懷錶、香水瓶和小盒子，都充滿了自由、華麗、浪漫的裝飾，深深吸引著十八世紀的歐洲人。    
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -154,7 +154,7 @@
       <h5 class="card-title">院藏清代歷史文書珍品：皇家建築圖檔文獻</h5>
       <p class="card-text">展覽概述
               傳統帝后的起居空間，都是在詳細慎密的規劃中營建而成。
-              參與規劃的機關衙門，分工精細，從勘丈測量、繪圖設計、物料估價、到執行建造與完工驗收。涉及單位眾多，動用的人力物資更是規模龐大....</p>
+              參與規劃的機關衙門，分工精細，從勘丈測量、繪圖設計、物料估價、到執行建造與完工驗收。涉及單位眾多，動用的人力物資更是規模龐大</p>
       <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
         更多內容...
       </button>
@@ -179,7 +179,7 @@
             第一單元精選院藏清代皇家建築圖樣檔案，第二單元介紹樣式雷家族的重要成員與建築設計案例，最後單元將以傳統古典建築在臺灣的延續，了解國民政府遷臺初期重要文化建設中的代表作品
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@
       <div class="card-body">
         <h5 class="card-title">院藏善本古籍選粹─彩繪圖籍</h5>
         <p class="card-text">在文字發明以前，語言與圖畫是為人與人之間溝通與傳遞訊息的主要途徑。隨著文字的出現、使用，圖與文的結合，不但完備訊息傳遞體系，更豐富典籍的藝術性格，
-          所謂「文不足以圖補之，圖不足以文敘之」。本展覽的彩繪圖籍，指的便是既書有文字，同時也配有彩色圖畫的古代典籍.....</p>
+          所謂「文不足以圖補之，圖不足以文敘之」。本展覽的彩繪圖籍，指的便是既書有文字，同時也配有彩色圖畫的古代典籍</p>
         <button type="button" class="btn btn-outline-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
         更多內容...
       </button>
@@ -217,7 +217,7 @@
             本展覽依院藏彩繪圖籍的內容特性概分四單元：一、占之術─易占、占卜、占候圖籍；二、彩繪大地─古代地理圖籍；三、法相殊勝─佛教經典圖籍；四、清帝詩文─乾隆、嘉慶詩文圖籍。透過這些精美的彩繪圖籍與研究說明，與觀眾分享「知」與「美」的饗宴
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -231,7 +231,7 @@
       <div class="card-body">
         <h5 class="card-title">愛硯成痴特展</h5>
         <p class="card-text">硯痴，是指對硯極度迷戀的性情中人，宋代文人蘇軾、米芾還有清代揚州畫派的高鳳翰都是歷史上有名的愛硯人士，
-          究竟硯石有什麼媚力，令人愛不釋手呢？讓我們一起來欣賞硯石之美，說說硯石饒富趣味的故事吧....</p>
+          究竟硯石有什麼媚力，令人愛不釋手呢？讓我們一起來欣賞硯石之美，說說硯石饒富趣味的故事吧</p>
         <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop6">
         更多內容...
       </button>
@@ -249,7 +249,7 @@
             展覽將以硯式的發展為陳列主軸，穿插與硯相關的點點滴滴，期望大家能感受到硯石與眾不同的特色，流連於古今用硯人的真情至性之間。
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@
         <h5 class="card-title">明 唐寅等 明五家書寒山寺募緣疏</h5>
         <p class="card-text">
               蘇州寒山寺舊稱普明禪院，因張繼(?-779)〈楓橋夜泊〉詩而著名。然屢遭火災,遂有明代諸家為該寺重修佛殿及大鐘作募款文。
-              研究指出其中以唐寅(1470-1524) 約1522-1523年作〈化鐘疏〉最早,雄健又瀟灑的書法風格,可與李邕(678-747)、趙孟頫(1254-1322)比肩.....。
+              研究指出其中以唐寅(1470-1524) 約1522-1523年作〈化鐘疏〉最早,雄健又瀟灑的書法風格,可與李邕(678-747)、趙孟頫(1254-1322)比肩。
         </p>
         <button type="button" class="btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop7">
         更多內容...
@@ -282,7 +282,7 @@
             以上作品經畢瀧(1733-1797)收集並裝裱，遂成今日之長卷
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
@@ -298,7 +298,7 @@
         <p class="card-text">
         工欲善其事，必先利其器。」從生產與狩獵的工具到殺伐兵器，從滿足溫飽到決定戰爭勝負，刃的鋒利與否是關鍵所在，也是人類製器的亙古追求。
         最初人類利用石材製刃，自快速砸擊到精細拋磨，漸次精進製刃技術。隨後人類掌握飛躍性的合金技術，冶煉出青銅，由此重新定義了鋒刃，
-        也因青銅優於石材的延展性及在短時間大量鑄造的特性，深層改變了兵器型態。緊接著，在一次次鑄銅的烈焰中，鐵刃淬鍊而生，影響至今未曾稍息.....
+        也因青銅優於石材的延展性及在短時間大量鑄造的特性，深層改變了兵器型態。緊接著，在一次次鑄銅的烈焰中，鐵刃淬鍊而生，影響至今未曾稍息
         </p>
         <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop8">
         更多內容...
@@ -320,7 +320,7 @@
             第四單元「歷久彌堅」呈現秦漢時期(公元前221-公元220)鐵兵器逐步興起之時,對青銅兵器的繼承與發展
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">閱讀完畢</button>
             </div>
           </div>
         </div>
