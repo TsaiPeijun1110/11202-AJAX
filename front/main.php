@@ -1,4 +1,5 @@
 <?php include_once './api/db.php';?>
+<?php include_once 'marquee.php';?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -43,9 +44,10 @@
 
 <div class="card-name" style="display: flex; justify-content:center;margin-left: auto; margin-right:auto;">
   <div class="card-container">
-  
     <div class="card" style="width:400px;">
-      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013505/34055811.jpg&w=880&h=540" class="card-img-top" alt="...">
+     <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013505&l=1">
+     <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013505/34055811.jpg&w=880&h=540" class="card-img-top" alt="...">
+     </a>
       <div class="card-body">
         <h5 class="card-title">無界之涯——從海出發探索十六世紀東西文化交流</h5>
         <p class="card-text">
@@ -80,13 +82,15 @@
   </div>
 
 
-
   <div class="card" style="width:400px;">
-    <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012959/34054431.jpg&w=880&h=530" class="card-img-top" alt="...">
+  <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04012959&l=1">
+  <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012959/34054431.jpg&w=880&h=530" class="card-img-top" alt="...">
+  </a>
     <div class="card-body">
       <h5 class="card-title">風格故事—琺瑯彩瓷特展</h5>
       <p class="card-text">
       當我們看文物時，首先映入眼簾的是它的造型和裝飾紋樣；再進一步思考時，就又想要瞭解相關的時代背景和製作技術。那麼，綜整這些因素所形塑出來的整體特色就是風格
+      從這個角度看清朝康熙、雍正和乾隆三個時期(1662-1795)的琺瑯彩瓷
       </p>
       <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
         更多內容...
@@ -100,7 +104,7 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-             從這個角度看清朝康熙、雍正和乾隆三個時期(1662-1795)的琺瑯彩瓷，除了推薦這是十八世紀最具代表性的瓷器之外，也想透過展覽說明因應彩料的研發與使用，以及主政者三位皇帝對官窯的不同訴求，而形成的三個階段的風格樣式。
+            ，除了推薦這是十八世紀最具代表性的瓷器之外，也想透過展覽說明因應彩料的研發與使用，以及主政者三位皇帝對官窯的不同訴求，而形成的三個階段的風格樣式。
              依照時間序列，展覽分成三個敘事脈絡。第一單元「皇帝實驗室的新創品」，藉由試作和成品的對比，展示康熙皇帝(1662-1722)邀集西洋傳教士和民間高手，共同推動畫琺瑯工藝及至燒出本土樣式的經過。第二單元「皇家專屬式樣」
             ，呈現雍正皇帝(1723-1735)以皇家專屬式樣為前提，將琺瑯彩瓷包裝成一種宮廷限量版的瓷器。
             </div>
@@ -114,13 +118,15 @@
   </div>
 
 
-
-
   <div class="card" style="width:400px;">
+    <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04012832&l=1">
     <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04012832/34054063.jpg&w=880&h=550" class="card-img-top" alt="...">
+    </a>
     <div class="card-body">
       <h5 class="card-title">華麗魔法屋─故宮的洛可可珍藏</h5>
-      <p class="card-text">歡迎來到華麗魔法屋! 你即將穿越時空來到二百多年前的歐洲。在這裡，「裝飾」是一種魔法，為看似平凡的生活場景與物品注入靈魂</p>
+      <p class="card-text">歡迎來到華麗魔法屋! 你即將穿越時空來到二百多年前的歐洲。在這裡，「裝飾」是一種魔法，為看似平凡的生活場景與物品注入靈魂
+      這種魔法被稱為「洛可可」(Rococo)，從大自然擷取靈感，輕快又奇幻的裝飾風格正在流行
+      </p>
       <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
         更多內容...
       </button>
@@ -133,8 +139,6 @@
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-           
-            這種魔法被稱為「洛可可」(Rococo)，從大自然擷取靈感，輕快又奇幻的裝飾風格正在流行。
             獨特的色彩，搭配金色，深受皇室喜愛，創造了美妙愉悅的洛可可裝飾時代。
             從房間的牆壁、客廳的桌子、壁爐上的時鐘、餐桌上的杯盤，到口袋裡的懷錶、香水瓶和小盒子，都充滿了自由、華麗、浪漫的裝飾，深深吸引著十八世紀的歐洲人。    
             </div>
@@ -148,10 +152,10 @@
     </div>
   </div>
 
-
-
   <div class="card" style="width: 400px;">
+    <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013504&l=1">
     <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013504/34055809.jpg&w=880&h=550" class="card-img-top" alt="...">
+    </a>
     <div class="card-body">
       <h5 class="card-title">院藏清代歷史文書珍品：皇家建築圖檔文獻</h5>
       <p class="card-text">展覽概述
@@ -192,12 +196,12 @@
 
 </div>
 
-
-
 <div class="card-name2" style="display: flex; justify-content:center;">
   <div class="card-container">
     <div class="card" style="width:400px;">
+      <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013392&l=1">
       <img src="https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013392/34055516.jpg&w=880&h=550" class="card-img-top" alt="...">
+      </a>
       <div class="card-body">
         <h5 class="card-title">院藏善本古籍選粹─彩繪圖籍</h5>
         <p class="card-text">在文字發明以前，語言與圖畫是為人與人之間溝通與傳遞訊息的主要途徑。隨著文字的出現、使用，圖與文的結合，不但完備訊息傳遞體系，更豐富典籍的藝術性格，
@@ -229,7 +233,9 @@
     </div>
 
     <div class="card" style="width:400px;">
+      <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013438&l=1">
       <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013438/34055622.jpg&w=880&h=550" class="card-img-top" alt="...">
+      </a>
       <div class="card-body">
         <h5 class="card-title">愛硯成痴特展</h5>
         <p class="card-text">硯痴，是指對硯極度迷戀的性情中人，宋代文人蘇軾、米芾還有清代揚州畫派的高鳳翰都是歷史上有名的愛硯人士，
@@ -260,7 +266,9 @@
     </div>
 
     <div class="card" style="width:400px;">
-      <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013558/34056002.jpg&w=720&h=500" class="card-img-top" alt="...">
+      <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013558&l=1&type=&cat=">
+        <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013558/34056002.jpg&w=720&h=500" class="card-img-top" alt="...">
+      </a>
       <div class="card-body">
         <h5 class="card-title">明 唐寅等 明五家書寒山寺募緣疏</h5>
         <p class="card-text">
@@ -294,7 +302,9 @@
     </div>
 
     <div class="card" style="width: 400px;">
+      <a href="https://www.npm.gov.tw/Exhibition-Content.aspx?sno=04013529&l=1&type=&cat=">
       <img src="	https://www.npm.gov.tw/NewFileAtt.ashx?name=exbitBig/04013529/34055852.jpg&w=720&h=500" class="card-img-top" alt="...">
+      </a>
       <div class="card-body">
         <h5 class="card-title">祀與戎：古代兵器攻略</h5>
         <p class="card-text">
@@ -404,7 +414,7 @@
 
 <div>
   <div style="width:400px; height:487px; margin:0px;border: #EE7728 double 3px;" class="dbor">
-    <span class="t ">校園映象區</span>
+    <span class="t ">故宮博物院映像區</span>
     <div class="cent" onclick="pp(1)"><img src="./icon/up.jpg" alt=""></div>
     <?php
     $imgs = $Image->all(['sh' => 1]);
@@ -499,18 +509,15 @@
 </div>
 
 
-
 <footer class="container-fluid flex-shrink-0 py-4 bg-dark text-white-50">
   <div class="container text-center">
-    <small><?= $Bottom->find(1)['bottom']; ?></small>
-    <span class="t">進站總人數:<?= $Total->find(1)['total']; ?></span>
+    <small style="font-size:20px;margin-left: 300px;"><?= $Bottom->find(1)['bottom']; ?></small>
+    <span class="t" style="margin-top:-39px; font-size:19px;">進站總人數:<?= $Total->find(1)['total']; ?></span>
+    <a href="https://www.npm.gov.tw/index.aspx?l=1">
+    <img src="../icon/images.png" style="margin-right:1500px;">
+    </a>
   </div>
 </footer>
-
-
-
-
-
 
 
 <script>
