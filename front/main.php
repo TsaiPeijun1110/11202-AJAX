@@ -511,11 +511,26 @@
 
 <footer class="container-fluid flex-shrink-0 py-4 bg-dark text-white-50">
   <div class="container text-center">
-    <small style="font-size:20px;margin-left: 300px;"><?= $Bottom->find(1)['bottom']; ?></small>
-    <span class="t" style="margin-top:-39px; font-size:19px;">進站總人數:<?= $Total->find(1)['total']; ?></span>
+    <small style="font-size:20px;margin-left: 300px;color:white;"><?= $Bottom->find(1)['bottom']; ?></small>
+  </div>
+  <div >
+      <span class="t" style="margin-top:-39px; font-size:19px;color:white; margin-right: 700px;">進站總人數:<?= $Total->find(1)['total']; ?></span>
+    </div>
+    <div >
     <a href="https://www.npm.gov.tw/index.aspx?l=1">
-    <img src="../icon/images.png" style="margin-right:1500px;">
+    <img src="../icon/images.png" style="margin-left: 1300px;">
     </a>
+  </div>
+  <div id="p1" style="margin-top: -170px;color:white;">
+    <p3>北部院區</p3>
+    <p>111001臺北市士林區至善路二段221號</p>
+    <p>111001臺北市士林區力行街11號 行政園區</p>
+    <p>(02)2881-2021</p>
+  </div>
+  <div id="p2" style="margin-right: 1000px;color:white;">
+    <p3>南部院區</p3>
+    <p>612008嘉義縣太保市故宮大道888號</p>
+    <p>(05)3620-777</p>
   </div>
 </footer>
 
