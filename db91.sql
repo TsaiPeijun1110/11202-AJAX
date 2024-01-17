@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- 主機： 127.0.0.1
--- 產生時間： 2024-01-17 03:26:01
+-- 產生時間： 2024-01-17 06:25:49
 -- 伺服器版本： 10.4.28-MariaDB
 -- PHP 版本： 8.2.4
 
@@ -104,12 +104,12 @@ INSERT INTO `image` (`id`, `img`, `sh`) VALUES
 (8, '34055976.jpg', 1),
 (11, '6ec51938b0a345178a33a3b0c5254af2.gif', 1),
 (12, '210934yagrlupzalaggjq7.gif', 1),
-(13, 'chimei-museum-museum.gif', 1),
-(14, 'markos-botsaris-1821.gif', 1),
+(13, 'd119b5a66b0c49d69e87f837dcb00658.gif', 1),
+(14, 'chimei-museum-museum.gif', 1),
 (15, 'on-the-way-marc-spector.gif', 1),
 (16, 'img-2.jpg', 1),
 (17, 'img-3.jpg', 1),
-(18, 'img-4.jpg', 1),
+(18, '6ec51938b0a345178a33a3b0c5254af2.gif', 1),
 (19, '00000661.jpg', 1),
 (20, '00000667.jpg', 1),
 (21, '00000672.jpg', 1),
@@ -211,9 +211,8 @@ CREATE TABLE `titles` (
 --
 
 INSERT INTO `titles` (`id`, `img`, `text`, `sh`) VALUES
-(3, '標題-1.jpg', '故宮博物院1', 0),
-(4, 'img-4.jpg', '故宮博物院2', 1),
-(5, 'img-3.jpg', '故宮博物院3', 0);
+(3, 'img-2.jpg', '故宮博物院1', 1),
+(7, 'img-3.jpg', '標題2', 0);
 
 -- --------------------------------------------------------
 
@@ -341,7 +340,7 @@ ALTER TABLE `news`
 -- 使用資料表自動遞增(AUTO_INCREMENT) `titles`
 --
 ALTER TABLE `titles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- 使用資料表自動遞增(AUTO_INCREMENT) `total`
