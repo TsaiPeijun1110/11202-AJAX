@@ -1,4 +1,4 @@
-<div class="di" style="height:540px; border:#999 1px solid; width:53.2%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px; margin-left: 300px;">
+<div class="di" style="height:540px; border:#999 1px solid; width:53.2%; margin:2px 0px 0px 0px; float:left; position:relative; left:20px; margin-left: 320px;">
     <?php include "marquee.php"; ?>
     <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"rel="stylesheet">
@@ -71,7 +71,7 @@
 </script>
 
 <div class="modal-footer">
-    <a href="../index.php" class="btn btn-primary" style="margin-right: 100px;">回首頁</a>
+    <a href="../index.php" class="btn btn-primary" style="margin-right: 200px;">回首頁</a>
 </div>
 
 <footer class="container-fluid flex-shrink-0 py-4 bg-dark text-white-50" style="margin-top: 508px;">
