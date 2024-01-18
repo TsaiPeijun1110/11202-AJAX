@@ -516,12 +516,12 @@
   <div >
       <span class="t" style="margin-top:-39px; font-size:19px;color:white; margin-right: 700px;">進站總人數:<?= $Total->find(1)['total']; ?></span>
     </div>
-    <div >
+    <!-- <div >
     <a href="https://www.npm.gov.tw/index.aspx?l=1">
     <img src="../icon/images.png" style="margin-left: 1300px;">
     </a>
-  </div>
-  <div id="p1" style="margin-top: -170px;color:white;">
+  </div> -->
+  <div id="p1" style="margin-top: -40px;color:white;">
     <p3>北部院區</p3>
     <p>111001臺北市士林區至善路二段221號</p>
     <p>111001臺北市士林區力行街11號 行政園區</p>
